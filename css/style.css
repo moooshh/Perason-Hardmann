@@ -67,7 +67,9 @@ i {
 }
 
 .banner.active {
-  opacity: 1; /* banner ativo é mostrado */
+  opacity: 1; 
+    /* banner ativo é mostrado */
+
 }
 
 .banner {
@@ -86,6 +88,8 @@ i {
 
 .banner p {
   font-size: 1.5rem;
+  margin-top: 3rem;
+  z-index: 2;
 }
 
 .square {
@@ -396,87 +400,87 @@ i {
 }
 /* Rodapé */
 #footer {
-  color: var(--primary-text-color);
-  background-color: var(--secondary-bg-color);
-  display: flex;
-  justify-content: space-around;
-  padding: 3rem 3rem 5rem;
+  color: var(--primary-text-color);                /* Cor do texto */
+  background-color: var(--secondary-bg-color);     /* Cor do fundo */
+  display: flex;                                  /* Flexbox */
+  justify-content: space-around;                   /* Alinhar ao centro */
+  padding: 3rem 3rem 5rem;                        /* Espacamento interno */
 }
 
 #footer i {
-  font-size: 1rem;
-  padding: 0.3rem;
+  font-size: 1rem;                                /* Tamanho do icone */
+  padding: 0.3rem;                                /* Espacamento interno */
 }
 
 #footer a {
-  color: var(--primary-text-color);
+  color: var(--primary-text-color);               /* Cor do texto */
 }
 
-.contact-info,
+.contact-info, 
 .links-container {
-  width: 20%;
+  width: 20%;                                     /* Largura */
 }
 
 .footer-brand {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem;                            /* Espacamento inferior */
 }
 
 .footer-brand h2 {
-  background-color: var(--main-color);
-  margin-bottom: 0.5rem;
-  padding: 1rem;
+  background-color: var(--main-color);             /* Cor de fundo */
+  margin-bottom: 0.5rem;                           /* Espacamento inferior */
+  padding: 1rem;                                   /* Espacamento interno */
 }
 
 .contact-info p {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem;                            /* Espacamento inferior */
 }
 
 .contact-info p i {
-  background-color: transparent;
-  padding: 0;
-  color: var(--main-color);
+  background-color: transparent;                   /* Cor de fundo */
+  padding: 0;                                     /* Espacamento interno */
+  color: var(--main-color);                       /* Cor do icone */
 }
 
 .social-networks p {
-  margin-bottom: 1rem;
-}
+  margin-bottom: 1rem;                            /* Espacamento inferior */
+} 
 
 .networks {
-  margin-top: 2rem;
-  display: flex;
-  gap: 1rem;
+  margin-top: 2rem;                               /* Espacamento superior */
+  display: flex;                                  /* Flexbox */
+  gap: 1rem;                                      /* Espacamento interno */
 }
 
 #footer .networks i {
-  padding: 1rem;
+  padding: 1rem;                                  /* Espacamento interno */
 }
 
 .links-container h4 {
-  text-transform: uppercase;
-  margin-bottom: 3rem;
+  text-transform: uppercase;                      /* Texto maiúsculo */
+  margin-bottom: 3rem;                            /* Espacamento inferior */
 }
 
 .links-container nav {
-  display: flex;
-  flex-direction: column;
+  display: flex;                                  /* Flexbox */
+  flex-direction: column;                         /* Flexbox */
 }
 
 .links-container nav a {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--secondary-color);
+  padding-bottom: 1rem;                              /* Espacamento inferior */
+  margin-bottom: 1rem;                               /* Espacamento inferior */
+  border-bottom: 1px solid var(--secondary-color);   /* Linha inferior */
 }
 
 .phone-number {
-  display: flex;
-  border: 1px solid var(--main-color);
-  gap: 1rem;
-  align-items: center;
-  margin-bottom: 1rem;
+  display: flex;                                       /* Flexbox */                             
+  border: 1px solid var(--main-color);                 /* Linha inferior */
+  gap: 1rem;                                           /* Espacamento interno */
+  align-items: center;                                 /* Alinhar ao centro */
+  margin-bottom: 1rem;                                 /* Espacamento inferior */
 }
 
 .phone-info {
-  color: var(--secondary-color);
+  color: var(--secondary-color);                       /* Cor do texto */
 }
 
 /* Mobile navbar */
